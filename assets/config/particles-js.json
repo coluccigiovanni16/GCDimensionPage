@@ -8,63 +8,49 @@
             }
         },
         "color": {
-            "value": "#FFFFFF"
+            "value": "#00A1E0"
         },
         "shape": {
-            "type": "circle",
+            "type": "image",
             "stroke": {
                 "width": 0,
                 "color": "#000000"
             },
-            "polygon": {
-                "nb_sides": 5
-            },
             "image": {
-                "src": "img/github.svg",
+                "src": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/Salesforce.com_logo.svg/320px-Salesforce.com_logo.svg.png",
                 "width": 100,
                 "height": 100
             }
         },
         "opacity": {
-            "value": 100,
+            "value": 0.5,
             "random": false,
             "anim": {
-                "enable": false,
-                "speed": 1,
-                "opacity_min": 0.1,
-                "sync": false
+                "enable": false
             }
         },
         "size": {
-            "value": 3,
+            "value": 8,
             "random": true,
             "anim": {
-                "enable": false,
-                "speed": 20,
-                "size_min": 0.1,
-                "sync": false
+                "enable": false
             }
         },
         "line_linked": {
             "enable": true,
             "distance": 150,
-            "color": "#ffffff",
-            "opacity": 0.8,
+            "color": "#00A1E0",
+            "opacity": 0.5,
             "width": 1
         },
         "move": {
             "enable": true,
-            "speed": 4,
+            "speed": 3,
             "direction": "none",
-            "random": true,
+            "random": false,
             "straight": false,
             "out_mode": "out",
-            "bounce": false,
-            "attract": {
-                "enable": false,
-                "rotateX": 600,
-                "rotateY": 1200
-            }
+            "bounce": false
         }
     },
     "interactivity": {
@@ -82,7 +68,7 @@
         },
         "modes": {
             "grab": {
-                "distance": 400,
+                "distance": 300,
                 "line_linked": {
                     "opacity": 1
                 }
@@ -99,7 +85,7 @@
                 "duration": 0.4
             },
             "push": {
-                "particles_nb": 10
+                "particles_nb": 4
             },
             "remove": {
                 "particles_nb": 2
